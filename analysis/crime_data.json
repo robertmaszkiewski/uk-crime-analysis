@@ -1,0 +1,638 @@
+{
+ "meta": {
+  "year": "2024/25 (year ending March 2025)",
+  "source": "Home Office Police recorded crime open data; ONS mid-2024 population",
+  "geography": "England & Wales, 43 territorial forces",
+  "note": "Recorded crime excludes fraud (recorded centrally by Action Fraud). Recorded crime depends on reporting/recording and is not the same as actual crime (see CSEW)."
+ },
+ "kpis": {
+  "total_all_bodies": 6588827,
+  "territorial_excl_fraud": 5225477,
+  "fraud_all": 1281354,
+  "population_ew": 61806682,
+  "rate_per_1000": 84.5,
+  "charge_rate": 8.6,
+  "no_suspect_rate": 39.8,
+  "forces": 43
+ },
+ "by_force": [
+  {
+   "force": "Metropolitan Police",
+   "region": "London Region",
+   "crimes": 943924,
+   "population": 9074625,
+   "rate": 104.0
+  },
+  {
+   "force": "Greater Manchester",
+   "region": "North West Region",
+   "crimes": 318679,
+   "population": 3009664,
+   "rate": 105.9
+  },
+  {
+   "force": "West Midlands",
+   "region": "West Midlands Region",
+   "crimes": 308491,
+   "population": 3036605,
+   "rate": 101.6
+  },
+  {
+   "force": "West Yorkshire",
+   "region": "Yorkshire and the Humber",
+   "crimes": 275196,
+   "population": 2435236,
+   "rate": 113.0
+  },
+  {
+   "force": "Thames Valley",
+   "region": "South East Region",
+   "crimes": 172209,
+   "population": 2640201,
+   "rate": 65.2
+  },
+  {
+   "force": "Avon and Somerset",
+   "region": "South West Region",
+   "crimes": 168349,
+   "population": 1813665,
+   "rate": 92.8
+  },
+  {
+   "force": "Kent",
+   "region": "South East Region",
+   "crimes": 162059,
+   "population": 1931684,
+   "rate": 83.9
+  },
+  {
+   "force": "Hampshire",
+   "region": "South East Region",
+   "crimes": 154879,
+   "population": 2062619,
+   "rate": 75.1
+  },
+  {
+   "force": "South Yorkshire",
+   "region": "Yorkshire and the Humber",
+   "crimes": 149368,
+   "population": 1430623,
+   "rate": 104.4
+  },
+  {
+   "force": "Essex",
+   "region": "Eastern Region",
+   "crimes": 144423,
+   "population": 1929610,
+   "rate": 74.8
+  },
+  {
+   "force": "Northumbria",
+   "region": "North East Region",
+   "crimes": 138464,
+   "population": 1509809,
+   "rate": 91.7
+  },
+  {
+   "force": "Sussex",
+   "region": "South East Region",
+   "crimes": 135292,
+   "population": 1759789,
+   "rate": 76.9
+  },
+  {
+   "force": "Merseyside",
+   "region": "North West Region",
+   "crimes": 135000,
+   "population": 1475541,
+   "rate": 91.5
+  },
+  {
+   "force": "Lancashire",
+   "region": "North West Region",
+   "crimes": 129008,
+   "population": 1601645,
+   "rate": 80.5
+  },
+  {
+   "force": "Devon and Cornwall",
+   "region": "South West Region",
+   "crimes": 121356,
+   "population": 1840161,
+   "rate": 65.9
+  },
+  {
+   "force": "South Wales",
+   "region": "Wales",
+   "crimes": 110126,
+   "population": 1363561,
+   "rate": 80.8
+  },
+  {
+   "force": "Nottinghamshire",
+   "region": "East Midlands Region",
+   "crimes": 98114,
+   "population": 1188090,
+   "rate": 82.6
+  },
+  {
+   "force": "Leicestershire",
+   "region": "East Midlands Region",
+   "crimes": 95178,
+   "population": 1175364,
+   "rate": 81.0
+  },
+  {
+   "force": "Humberside",
+   "region": "Yorkshire and the Humber",
+   "crimes": 93719,
+   "population": 962532,
+   "rate": 97.4
+  },
+  {
+   "force": "Staffordshire",
+   "region": "West Midlands Region",
+   "crimes": 86300,
+   "population": 1177578,
+   "rate": 73.3
+  },
+  {
+   "force": "Derbyshire",
+   "region": "East Midlands Region",
+   "crimes": 84553,
+   "population": 1096526,
+   "rate": 77.1
+  },
+  {
+   "force": "Hertfordshire",
+   "region": "Eastern Region",
+   "crimes": 82318,
+   "population": 1236191,
+   "rate": 66.6
+  },
+  {
+   "force": "West Mercia",
+   "region": "West Midlands Region",
+   "crimes": 80845,
+   "population": 1340814,
+   "rate": 60.3
+  },
+  {
+   "force": "Cheshire",
+   "region": "North West Region",
+   "crimes": 78319,
+   "population": 1139884,
+   "rate": 68.7
+  },
+  {
+   "force": "Surrey",
+   "region": "South East Region",
+   "crimes": 73709,
+   "population": 1248649,
+   "rate": 59.0
+  },
+  {
+   "force": "Cleveland",
+   "region": "North East Region",
+   "crimes": 71425,
+   "population": 600369,
+   "rate": 119.0
+  },
+  {
+   "force": "Cambridgeshire",
+   "region": "Eastern Region",
+   "crimes": 67710,
+   "population": 933972,
+   "rate": 72.5
+  },
+  {
+   "force": "Norfolk",
+   "region": "Eastern Region",
+   "crimes": 59533,
+   "population": 940359,
+   "rate": 63.3
+  },
+  {
+   "force": "Durham",
+   "region": "North East Region",
+   "crimes": 59355,
+   "population": 650500,
+   "rate": 91.2
+  },
+  {
+   "force": "Northamptonshire",
+   "region": "East Midlands Region",
+   "crimes": 59304,
+   "population": 813682,
+   "rate": 72.9
+  },
+  {
+   "force": "Gwent",
+   "region": "Wales",
+   "crimes": 57846,
+   "population": 601686,
+   "rate": 96.1
+  },
+  {
+   "force": "Lincolnshire",
+   "region": "East Midlands Region",
+   "crimes": 54898,
+   "population": 789502,
+   "rate": 69.5
+  },
+  {
+   "force": "North Wales",
+   "region": "Wales",
+   "crimes": 53149,
+   "population": 697115,
+   "rate": 76.2
+  },
+  {
+   "force": "Bedfordshire",
+   "region": "Eastern Region",
+   "crimes": 52032,
+   "population": 749943,
+   "rate": 69.4
+  },
+  {
+   "force": "Dorset",
+   "region": "South West Region",
+   "crimes": 51100,
+   "population": 798914,
+   "rate": 64.0
+  },
+  {
+   "force": "Gloucestershire",
+   "region": "South West Region",
+   "crimes": 45804,
+   "population": 669380,
+   "rate": 68.4
+  },
+  {
+   "force": "North Yorkshire",
+   "region": "Yorkshire and the Humber",
+   "crimes": 45020,
+   "population": 844571,
+   "rate": 53.3
+  },
+  {
+   "force": "Suffolk",
+   "region": "Eastern Region",
+   "crimes": 44496,
+   "population": 786231,
+   "rate": 56.6
+  },
+  {
+   "force": "Wiltshire",
+   "region": "South West Region",
+   "crimes": 40294,
+   "population": 767575,
+   "rate": 52.5
+  },
+  {
+   "force": "Warwickshire",
+   "region": "West Midlands Region",
+   "crimes": 39544,
+   "population": 632207,
+   "rate": 62.5
+  },
+  {
+   "force": "Dyfed-Powys",
+   "region": "Wales",
+   "crimes": 37877,
+   "population": 524219,
+   "rate": 72.3
+  },
+  {
+   "force": "Cumbria",
+   "region": "North West Region",
+   "crimes": 37033,
+   "population": 510680,
+   "rate": 72.5
+  },
+  {
+   "force": "London, City of",
+   "region": "London Region",
+   "crimes": 9179,
+   "population": 15111,
+   "rate": 607.4
+  }
+ ],
+ "by_group": [
+  {
+   "group": "Violence against the person",
+   "crimes": 1923338,
+   "share": 36.8
+  },
+  {
+   "group": "Theft offences",
+   "crimes": 1740608,
+   "share": 33.3
+  },
+  {
+   "group": "Criminal damage and arson",
+   "crimes": 455004,
+   "share": 8.7
+  },
+  {
+   "group": "Public order offences",
+   "crimes": 440119,
+   "share": 8.4
+  },
+  {
+   "group": "Sexual offences",
+   "crimes": 206842,
+   "share": 4.0
+  },
+  {
+   "group": "Drug offences",
+   "crimes": 202155,
+   "share": 3.9
+  },
+  {
+   "group": "Miscellaneous crimes against society",
+   "crimes": 122978,
+   "share": 2.4
+  },
+  {
+   "group": "Robbery",
+   "crimes": 77603,
+   "share": 1.5
+  },
+  {
+   "group": "Possession of weapons offences",
+   "crimes": 56830,
+   "share": 1.1
+  }
+ ],
+ "trend_by_year": [
+  {
+   "fy": "2012/13",
+   "crimes": 3501491
+  },
+  {
+   "fy": "2013/14",
+   "crimes": 3457415
+  },
+  {
+   "fy": "2014/15",
+   "crimes": 3529603
+  },
+  {
+   "fy": "2015/16",
+   "crimes": 3851997
+  },
+  {
+   "fy": "2016/17",
+   "crimes": 4271251
+  },
+  {
+   "fy": "2017/18",
+   "crimes": 4830973
+  },
+  {
+   "fy": "2018/19",
+   "crimes": 5200183
+  },
+  {
+   "fy": "2019/20",
+   "crimes": 5234272
+  },
+  {
+   "fy": "2020/21",
+   "crimes": 4580342
+  },
+  {
+   "fy": "2021/22",
+   "crimes": 5277294
+  },
+  {
+   "fy": "2022/23",
+   "crimes": 5513100
+  },
+  {
+   "fy": "2023/24",
+   "crimes": 5324855
+  },
+  {
+   "fy": "2024/25",
+   "crimes": 5225477
+  }
+ ],
+ "shoplifting_by_year": [
+  {
+   "fy": "2012/13",
+   "crimes": 298776
+  },
+  {
+   "fy": "2013/14",
+   "crimes": 319175
+  },
+  {
+   "fy": "2014/15",
+   "crimes": 324013
+  },
+  {
+   "fy": "2015/16",
+   "crimes": 334985
+  },
+  {
+   "fy": "2016/17",
+   "crimes": 367933
+  },
+  {
+   "fy": "2017/18",
+   "crimes": 380026
+  },
+  {
+   "fy": "2018/19",
+   "crimes": 371900
+  },
+  {
+   "fy": "2019/20",
+   "crimes": 356762
+  },
+  {
+   "fy": "2020/21",
+   "crimes": 227419
+  },
+  {
+   "fy": "2021/22",
+   "crimes": 273861
+  },
+  {
+   "fy": "2022/23",
+   "crimes": 340468
+  },
+  {
+   "fy": "2023/24",
+   "crimes": 440437
+  },
+  {
+   "fy": "2024/25",
+   "crimes": 525833
+  }
+ ],
+ "outcomes": [
+  {
+   "outcome": "Investigation complete \u2013 no suspect identified",
+   "count": 2114651,
+   "share": 39.8
+  },
+  {
+   "outcome": "Evidential difficulties (victim does not support action)",
+   "count": 1398454,
+   "share": 26.3
+  },
+  {
+   "outcome": "Evidential difficulties (suspect identified; victim supports action)",
+   "count": 764558,
+   "share": 14.4
+  },
+  {
+   "outcome": "Charged/Summonsed",
+   "count": 458780,
+   "share": 8.6
+  },
+  {
+   "outcome": "Out-of-court (informal)",
+   "count": 165569,
+   "share": 3.1
+  },
+  {
+   "outcome": "Not yet assigned an outcome",
+   "count": 129870,
+   "share": 2.4
+  },
+  {
+   "outcome": "Prosecution prevented or not in the public interest",
+   "count": 76690,
+   "share": 1.4
+  },
+  {
+   "outcome": "Responsibility for further investigation transferred to another body",
+   "count": 75791,
+   "share": 1.4
+  },
+  {
+   "outcome": "Out-of-court (formal)",
+   "count": 49234,
+   "share": 0.9
+  },
+  {
+   "outcome": "Further investigation to support formal action not in the public interest \u2013 police decision",
+   "count": 42475,
+   "share": 0.8
+  },
+  {
+   "outcome": "Diversionary, educational or intervention activity, resulting from the crime report, has been undertaken and it is not in the public interest to take any further action.",
+   "count": 26536,
+   "share": 0.5
+  },
+  {
+   "outcome": "Taken into consideration",
+   "count": 4865,
+   "share": 0.1
+  }
+ ],
+ "charge_rate_by_group": [
+  {
+   "group": "Possession of weapons offences",
+   "rate": 33.5
+  },
+  {
+   "group": "Drug offences",
+   "rate": 22.7
+  },
+  {
+   "group": "Miscellaneous crimes against society",
+   "rate": 13.6
+  },
+  {
+   "group": "Robbery",
+   "rate": 9.4
+  },
+  {
+   "group": "Public order offences",
+   "rate": 9.4
+  },
+  {
+   "group": "Theft offences",
+   "rate": 8.1
+  },
+  {
+   "group": "Violence against the person",
+   "rate": 7.4
+  },
+  {
+   "group": "Sexual offences",
+   "rate": 6.7
+  },
+  {
+   "group": "Criminal damage and arson",
+   "rate": 5.5
+  }
+ ],
+ "by_region": [
+  {
+   "region": "London Region",
+   "crimes": 953103,
+   "population": 9089736,
+   "rate": 104.9
+  },
+  {
+   "region": "Yorkshire and the Humber",
+   "crimes": 563303,
+   "population": 5672962,
+   "rate": 99.3
+  },
+  {
+   "region": "North East Region",
+   "crimes": 269244,
+   "population": 2760678,
+   "rate": 97.5
+  },
+  {
+   "region": "North West Region",
+   "crimes": 698039,
+   "population": 7737414,
+   "rate": 90.2
+  },
+  {
+   "region": "West Midlands Region",
+   "crimes": 515180,
+   "population": 6187204,
+   "rate": 83.3
+  },
+  {
+   "region": "Wales",
+   "crimes": 258998,
+   "population": 3186581,
+   "rate": 81.3
+  },
+  {
+   "region": "East Midlands Region",
+   "crimes": 392047,
+   "population": 5063164,
+   "rate": 77.4
+  },
+  {
+   "region": "South West Region",
+   "crimes": 426903,
+   "population": 5889695,
+   "rate": 72.5
+  },
+  {
+   "region": "South East Region",
+   "crimes": 698148,
+   "population": 9642942,
+   "rate": 72.4
+  },
+  {
+   "region": "Eastern Region",
+   "crimes": 450512,
+   "population": 6576306,
+   "rate": 68.5
+  }
+ ]
+}

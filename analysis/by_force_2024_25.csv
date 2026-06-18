@@ -1,0 +1,44 @@
+Force,crimes,Population,region,rate_per_1000
+Metropolitan Police,943924.0,9074625,London Region,104.0
+Greater Manchester,318679.0,3009664,North West Region,105.9
+West Midlands,308491.0,3036605,West Midlands Region,101.6
+West Yorkshire,275196.0,2435236,Yorkshire and the Humber,113.0
+Thames Valley,172209.0,2640201,South East Region,65.2
+Avon and Somerset,168349.0,1813665,South West Region,92.8
+Kent,162059.0,1931684,South East Region,83.9
+Hampshire,154879.0,2062619,South East Region,75.1
+South Yorkshire,149368.0,1430623,Yorkshire and the Humber,104.4
+Essex,144423.0,1929610,Eastern Region,74.8
+Northumbria,138464.0,1509809,North East Region,91.7
+Sussex,135292.0,1759789,South East Region,76.9
+Merseyside,135000.0,1475541,North West Region,91.5
+Lancashire,129008.0,1601645,North West Region,80.5
+Devon and Cornwall,121356.0,1840161,South West Region,65.9
+South Wales,110126.0,1363561,Wales,80.8
+Nottinghamshire,98114.0,1188090,East Midlands Region,82.6
+Leicestershire,95178.0,1175364,East Midlands Region,81.0
+Humberside,93719.0,962532,Yorkshire and the Humber,97.4
+Staffordshire,86300.0,1177578,West Midlands Region,73.3
+Derbyshire,84553.0,1096526,East Midlands Region,77.1
+Hertfordshire,82318.0,1236191,Eastern Region,66.6
+West Mercia,80845.0,1340814,West Midlands Region,60.3
+Cheshire,78319.0,1139884,North West Region,68.7
+Surrey,73709.0,1248649,South East Region,59.0
+Cleveland,71425.0,600369,North East Region,119.0
+Cambridgeshire,67710.0,933972,Eastern Region,72.5
+Norfolk,59533.0,940359,Eastern Region,63.3
+Durham,59355.0,650500,North East Region,91.2
+Northamptonshire,59304.0,813682,East Midlands Region,72.9
+Gwent,57846.0,601686,Wales,96.1
+Lincolnshire,54898.0,789502,East Midlands Region,69.5
+North Wales,53149.0,697115,Wales,76.2
+Bedfordshire,52032.0,749943,Eastern Region,69.4
+Dorset,51100.0,798914,South West Region,64.0
+Gloucestershire,45804.0,669380,South West Region,68.4
+North Yorkshire,45020.0,844571,Yorkshire and the Humber,53.3
+Suffolk,44496.0,786231,Eastern Region,56.6
+Wiltshire,40294.0,767575,South West Region,52.5
+Warwickshire,39544.0,632207,West Midlands Region,62.5
+Dyfed-Powys,37877.0,524219,Wales,72.3
+Cumbria,37033.0,510680,North West Region,72.5
+"London, City of",9179.0,15111,London Region,607.4
