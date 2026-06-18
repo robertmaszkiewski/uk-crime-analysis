@@ -30,6 +30,14 @@
 - **England & Wales only** — Scotland and Northern Ireland use separate recording systems.
 - **No offender demographics** exist in UK open crime data; no nationality/ethnicity claims are made.
 
+## Deep-dive: crime vs house prices (local-authority level)
+- **Crime:** Home Office CSP open data 2024/25 (recorded crime by Community Safety Partnership ≈ local authority), excl. fraud.
+- **House price:** ONS HPSSA dataset 9, median price paid by local authority, latest column (year ending Mar 2023).
+- **Population:** ONS mid-2022 (2021 LA boundaries edition), to compute crime rate per 1,000.
+- **Boundaries:** ONS LAD (December 2022) BUC.
+- **Join:** CSP name → HPSSA local-authority name (normalised: lowercase, `&`→`and`, strip ", City of"); other tables joined on LAD code. **287 of ~330 LADs matched**, covering **92%** of recorded crime; ~70 dropped (local-government reorganisation between vintages + "unassigned" records + multi-LA CSPs).
+- **Result:** Pearson(rate, price) = **+0.18** (misleading — City of London & Westminster are high-leverage outliers with extreme prices and daytime-driven crime rates). Spearman = **−0.28**; **excluding London = −0.51**. So the robust pattern is **negative** (more crime ↔ cheaper housing), but it's an **ecological correlation, not causation** (deprivation, density, footfall confound it). Vintages differ (crime 2024/25, price to Mar 2023, pop mid-2022) — fine for relative cross-sectional comparison, stated openly.
+
 ## Key figures
 - E&W overall rate: **84.5 / 1,000** (excl. fraud).
 - Highest rates (excl. City of London artifact): Cleveland 119.0, West Yorkshire 113.0, Greater Manchester 105.9.

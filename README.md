@@ -68,6 +68,18 @@ Each is a deliberate, documented decision:
 ![Outcomes](reports/figures/04_outcomes.png)
 ![Charge rate by type](reports/figures/05_charge_rate_by_group.png)
 
+## Deep-dive: do cheaper areas have more crime?
+
+Joining crime to **median house price** across **287 local authorities** (92% of recorded crime) — and a lesson in not trusting one correlation coefficient.
+
+![Crime rate vs house price](reports/figures/07_crime_vs_houseprice.png)
+
+- The naive **Pearson r = +0.18** is *misleading*: the City of London and Westminster have extreme prices **and** extreme (daytime-driven) crime rates, pulling the line up.
+- Rank-based and with London removed, the real pattern is **negative — Spearman −0.28 overall, −0.51 excluding London**: more crime tends to go with **cheaper** housing (Middlesbrough, Blackpool, Hartlepool = high crime, low price; Kent commuter towns and Derbyshire Dales = low crime, higher price).
+- **Correlation isn't causation** — deprivation, urban density and footfall plausibly drive both. This is an *ecological* (area-level) relationship and says nothing about individuals.
+
+Data: Home Office CSP recorded crime 2024/25 (excl. fraud) · ONS HPSSA median price paid (to Mar 2023) · ONS mid-2022 population · ONS LAD (Dec 2022) boundaries. ~70 areas excluded due to local-government reorganisation between data vintages.
+
 ## Tools
 
 Python · pandas · numpy · python-calamine (fast ODS/XLSX) · matplotlib · GeoJSON / Leaflet (dashboard) · Git
