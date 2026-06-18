@@ -4,6 +4,7 @@ End-to-end data-analytics case study on **6.6 million** police-recorded offences
 
 **Author:** Robert Maszkiewski · Aspiring Data Analyst (Google Data Analytics certified)
 **Live dashboard:** https://rmportfolio.co.uk/case-studies/uk-crime.html
+**Kaggle notebook:** https://www.kaggle.com/code/robertmaszkiewski/uk-crime
 **Contact:** [LinkedIn](https://www.linkedin.com/in/robert-maszkiewski) · robertmaszkiewski@gmail.com
 
 ---
